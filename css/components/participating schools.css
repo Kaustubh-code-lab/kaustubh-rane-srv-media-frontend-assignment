@@ -1,0 +1,83 @@
+.marquee-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.school-slider_heading h3 {
+    font-size: 21px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #000E38 0%, #3F186A 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.card-row {
+    display: flex;
+    gap: 25px;
+    padding: 10px 16px;
+    width: max-content;
+    animation-duration: 14s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.row-top {
+    animation-name: bounce-right;
+}
+
+.row-bottom {
+    animation-name: bounce-left;
+}
+
+.card-row:hover,
+.card-row:focus-within {
+    animation-play-state: paused;
+}
+
+.card {
+    border: 1px solid #E8E7E7;
+    width: 182px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper img {
+    width: 70%;
+    height: 100%;
+    display: block;
+}
+
+@keyframes bounce-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% + 100vw));
+    }
+}
+
+@keyframes bounce-left {
+    0% {
+        transform: translateX(calc(-100% + 100vw));
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

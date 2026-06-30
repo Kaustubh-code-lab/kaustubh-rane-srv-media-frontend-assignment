@@ -1,0 +1,35 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Museo Sans Demo';
+    src: url('/fonts/fonnts.com-Museo_Sans_300.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Museo Sans Demo', sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    width: 100%;
+}
+

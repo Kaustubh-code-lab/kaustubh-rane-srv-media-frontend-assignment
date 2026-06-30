@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier Schools Exhibition</title>
+    <meta name="description" content="Premier Schools Exhibition Landing Page">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/components/hero.css">
+    <link rel="stylesheet" href="./css/components/exhibition statistics.css">
+    <link rel="stylesheet" href="./css/components/participating schools.css">
+    <link rel="stylesheet" href="./css/components/choose school.css">
+    <link rel="stylesheet" href="./css/components/schedule cta.css">
+    <link rel="stylesheet" href="./css/components/exhibition features.css">
+    <link rel="stylesheet" href="./css/components/contact info.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <h1>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+
+        <!-- site global header -->
+        <header class="header" id="site-header">
+            <a href="#" class="header__logo">
+                <img src="./assets/logos/premier_school_logo.svg" alt="Premier Schools Exhibition">
+            </a>
+            <a href="#register" class="register-btn hide-on-mobile">
+                <span class="register-btn__icon">
+                    <img src="./assets/icons/register_btn_arrow.svg" alt="">
+                </span>
+                <span class="register-btn__text">
+                    <p>REGISTER NOW</p> <i class="bi bi-arrow-right" style="font-size: 20px;"></i>
+                </span>
+            </a>
+        </header>
+
+        <main id="main-content" tabindex="-1">
+
+            <!-- hero section -->
+            <section class="hero">
+                <div class="hero__grid purple-gradient-bg hide-on-mobile">
+                    <div class="school-banner">
+                        <h1 class="school-banner__title">
+                            Discover Gurugram's<br>
+                            <span class="school-banner__title--highlight">Top 30+ Schools</span>
+                        </h1>
+                        <p class="school-banner__subtitle">ALL IN ONE PLACE</p>
+                        <div class="event-capsule">
+                            <div class="event-capsule-inner">
+                                <div class="event-capsule__section event-capsule__section--venue">
+                                    <span class="event-capsule__primary-text">Apparel House,</span>
+                                    <span class="event-capsule__secondary-text">Sec 44, Gurugram</span>
+                                </div>
+                                <div class="event-capsule__divider"></div>
+                                <div class="event-capsule__section event-capsule__section--schedule">
+                                    <span class="event-capsule__primary-text">2-3 August 2025</span>
+                                    <span class="event-capsule__secondary-text">Sat-Sun | 10AM - 6PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-window">
+                        <div class="scroll-track">
+                            <div class="scroll-item"><img src="./assets/images/hero_slider_img_01.png" alt="A1"><img
+                                    src="./assets/images/hero_slider_img_02.png" alt="A1"><img
+                                    src="./assets/images/hero_slider_img_03.png" alt="A1">
+                            </div>
+                            <div class="scroll-item"><img src="./assets/images/hero_slider_img_04.png" alt="A1"><img
+                                    src="./assets/images/hero_slider_img_05.png" alt="A1"><img
+                                    src="./assets/images/hero_slider_img_06.png" alt="A1">
+                            </div>
+                            <div class="scroll-item"><img src="./assets/images/hero_slider_img_07.png" alt="A1"><img
+                                    src="./assets/images/hero_slider_img_08.png" alt="A1"><img
+                                    src="./assets/images/hero_slider_img_09.png" alt="A1">
+                            </div>
+                            <div class="scroll-item"><img src="./assets/images/hero_slider_img_10.png" alt="A1"><img
+                                    src="./assets/images/hero_slider_img_11.png" alt="A1"><img
+                                    src="./assets/images/hero_slider_img_12.png" alt="A1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="enquiry-card">
+                        <h2 class="enquiry-card__title">Enquire Now</h2>
+                        <form class="enquiry-form">
+                            <div class="enquiry-form__group">
+                                <input type="text" class="enquiry-form__input" placeholder="Parent's Name" required>
+                            </div>
+                            <div class="enquiry-form__group">
+                                <input type="tel" class="enquiry-form__input" placeholder="Phone number" required>
+                            </div>
+                            <div class="enquiry-form__group">
+                                <textarea class="enquiry-form__textarea" placeholder="Which grade are you looking for?"
+                                    rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="enquiry-form__submit-btn">
+                                <span class="enquiry-form__icon-wrapper">
+                                    <svg class="enquiry-form__icon" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                                        <polyline points="7 7 17 7 17 17"></polyline>
+                                    </svg>
+                                </span>
+                                <span class="enquiry-form__btn-text">SUBMIT</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="hero-mobile-layout show-only-on-mobile">
+                    <div class="hero-mobile__top-section purple-gradient-bg">
+                        <div class="hero-mobile__slider">
+                            <div class="hero-mobile__track">
+                                <div class="hero-mobile__oval-box"><img src="./assets/images/hero_slider_img_01.png"
+                                        alt="Student"></div>
+                                <div class="hero-mobile__oval-box"><img src="./assets/images/hero_slider_img_02.png"
+                                        alt="Student"></div>
+                                <div class="hero-mobile__oval-box"><img src="./assets/images/hero_slider_img_03.png"
+                                        alt="Student"></div>
+                                <div class="hero-mobile__oval-box"><img src="./assets/images/hero_slider_img_04.png"
+                                        alt="Student"></div>
+                            </div>
+                        </div>
+                        <div class="hero-mobile__banner">
+                            <h1 class="hero-mobile__title">
+                                Discover Gurugram's<br>
+                                <span class="hero-mobile__title--highlight">Top 30+ Schools</span>
+                            </h1>
+                            <p class="hero-mobile__subtitle">ALL IN ONE PLACE</p>
+                        </div>
+                    </div>
+                    <div class="hero-mobile__bottom-section">
+                        <div class="hero-mobile__capsule">
+                            <div class="hero-mobile__capsule-section">
+                                <span class="hero-mobile__capsule-primary">Apparel House,</span>
+                                <span class="hero-mobile__capsule-secondary">Sec 44, Gurugram</span>
+                            </div>
+                            <div class="hero-mobile__capsule-divider"></div>
+                            <div class="hero-mobile__capsule-section">
+                                <span class="hero-mobile__capsule-primary">2-3 August 2025</span>
+                                <span class="hero-mobile__capsule-secondary">Sat-Sun | 10AM - 6PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- exhibition stats section -->
+            <section class="stats-strip">
+                <div class="badge-grid">
+                    <div class="badge-grid__item">
+                        <img src="./assets/logos/leaves-left.svg" alt=""
+                            class="badge-grid__item__laurel badge-grid__item__laurel--left">
+                        <div class="badge-grid__item__content">
+                            <span class="badge-grid__item__text badge-grid__item__text--top">Trusted by</span>
+                            <strong class="badge-grid__item__text badge-grid__item__text--middle">1 Million+</strong>
+                            <span class="badge-grid__item__text badge-grid__item__text--bottom">Parents</span>
+                        </div>
+                        <img src="./assets/logos/leaves-right.svg" alt=""
+                            class="badge-grid__item__laurel badge-grid__item__laurel--right">
+                    </div>
+                    <div class="badge-grid__item">
+                        <img src="./assets/logos/leaves-left.svg" alt=""
+                            class="badge-grid__item__laurel badge-grid__item__laurel--left">
+                        <div class="badge-grid__item__content">
+                            <strong class="badge-grid__item__text badge-grid__item__text--middle">22+</strong>
+                            <strong class="badge-grid__item__text badge-grid__item__text--middle">Years</strong>
+                            <span class="badge-grid__item__text badge-grid__item__text--bottom">of Legacy</span>
+                        </div>
+                        <img src="./assets/logos/leaves-right.svg" alt=""
+                            class="badge-grid__item__laurel badge-grid__item__laurel--right">
+                    </div>
+                    <div class="badge-grid__item">
+                        <img src="./assets/logos/leaves-left.svg" alt=""
+                            class="badge-grid__item__laurel badge-grid__item__laurel--left">
+                        <div class="badge-grid__item__content">
+                            <strong class="badge-grid__item__text badge-grid__item__text--middle">500+
+                            </strong>
+                            <span class="badge-grid__item__text badge-grid__item__text--top">Participating
+                            </span>
+                            <span class="badge-grid__item__text badge-grid__item__text--bottom">Schools</span>
+                        </div>
+                        <img src="./assets/logos/leaves-right.svg" alt=""
+                            class="badge-grid__item__laurel badge-grid__item__laurel--right">
+                    </div>
+                    <div class="badge-grid__item">
+                        <img src="./assets/logos/leaves-left.svg" alt=""
+                            class="badge-grid__item__laurel badge-grid__item__laurel--left">
+                        <div class="badge-grid__item__content">
+                            <strong class="badge-grid__item__text badge-grid__item__text--middle">17 Cities </strong>
+                            <span class="badge-grid__item__text badge-grid__item__text--top"> Across the</span>
+                            <span class="badge-grid__item__text badge-grid__item__text--bottom">Globe</span>
+                        </div>
+                        <img src="./assets/logos/leaves-right.svg" alt=""
+                            class="badge-grid__item__laurel badge-grid__item__laurel--right">
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- register bar on mobile -->
+            <div class="mobile-reg-bar show-only-on-mobile">
+                <a href="#register-form" class="mobile-reg-bar__action">
+                    <span class="mobile-reg-bar__action-text">REGISTER NOW</span>
+                </a>
+                <div class="mobile-reg-bar__counter">
+                    <div class="mobile-reg-bar__counter-wrapper">
+                        <span class="mobile-reg-bar__counter-primary">7635+ PARENTS</span>
+                        <span class="mobile-reg-bar__counter-secondary">REGISTERED</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- participating schools slider section -->
+            <section class="schools-slider">
+                <div class="school-slider_heading">
+                    <h3>Participating Schools</h3>
+                </div>
+
+                <div class="marquee-container">
+                    <div class="card-row row-top">
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/harrow_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/shrewsbury_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/kings_cllg_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/woodstock_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/harrow_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/aga_khan_academy_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/tisb_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/harrow_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/shrewsbury_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/kings_cllg_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-row row-bottom">
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/harrow_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/shrewsbury_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/kings_cllg_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/woodstock_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/harrow_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/aga_khan_academy_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/tisb_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/harrow_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/shrewsbury_school_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                        <div class="card" tabindex="0">
+                            <div class="logo-wrapper">
+                                <img src="./assets/logos/kings_cllg_logo.svg" alt="Harrow School Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- choose schools section -->
+            <section class="school-cards">
+                <div class="school-cards_heading">
+                    <h3>Choose the School That Fits You Best</h3>
+                </div>
+
+                <div class="school-categ-grid" id="schoolSlider">
+                    <div class="school-categ-grid_card">
+                        <div class="school-categ-grid_card__bg"
+                            style="background-image: url('./assets/images/school_bg_01.png');"></div>
+                        <div class="school-categ-grid_card__content">
+                            <h2 class="school-categ-grid_card__title">Pre-Schools & Early Learning Centres</h2>
+                            <p class="school-categ-grid_card__subtitle">Nurturing foundational skills for toddlers and
+                                pre-primary children.</p>
+                        </div>
+                    </div>
+                    <div class="school-categ-grid_card">
+                        <div class="school-categ-grid_card__bg"
+                            style="background-image: url('./assets/images/school_bg_02.png');"></div>
+                        <div class="school-categ-grid_card__content">
+                            <h2 class="school-categ-grid_card__title">K-12 CBSE Day Schools</h2>
+                            <p class="school-categ-grid_card__subtitle">Reputed schools offering complete schooling from
+                                Kindergarten to Grade 12.</p>
+                        </div>
+                    </div>
+                    <div class="school-categ-grid_card">
+                        <div class="school-categ-grid_card__bg"
+                            style="background-image: url('./assets/images/school_bg_04.png');"></div>
+                        <div class="school-categ-grid_card__content">
+                            <h2 class="school-categ-grid_card__title">Heritage to New Age Schools</h2>
+                            <p class="school-categ-grid_card__subtitle">Time-tested schools to innovative pedagogy, tech
+                                enabled, future-ready schools</p>
+                        </div>
+                    </div>
+                    <div class="school-categ-grid_card">
+                        <div class="school-categ-grid_card__bg"
+                            style="background-image: url('./assets/images/school_bg_03.png');"></div>
+                        <div class="school-categ-grid_card__content">
+                            <h2 class="school-categ-grid_card__title">International Curriculum Schools</h2>
+                            <p class="school-categ-grid_card__subtitle">Offering IB, Cambridge, Finnish and other global
+                                curricula with a global learning environment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-pagination" id="sliderPagination"></div>
+            </section>
+
+            <!-- cta banner section -->
+            <section class="container cta-banner">
+                <div class="cta-banner__content">
+                    <div class="cta-banner__inner">
+                        <p class="cta-banner__subtitle">Exciting Opportunities for Parents!</p>
+                        <h2 class="cta-banner__title">Pre-schedule Your School Appointments</h2>
+                        <p class="cta-banner__subtitle">To Avoid Rush</p>
+                        <button class="cta-banner__button"><span class="cta-banner__button_icon"><img
+                                    src="./assets/icons/register_btn_arrow.svg"></span>
+                            <span class="cta-banner__button_text">PRE-SCHEDULE NOW</span></button>
+                    </div>
+                </div>
+                <div class="cta-banner__image">
+                    <img src="./assets/images/cta-banner-bg.jpg" alt="School event crowd" class="cta-banner__img-fluid">
+                </div>
+            </section>
+
+            <!-- exhibition features section -->
+            <section class="exhibition-features">
+                <div class="exhibition-features__hero-panel">
+                    <div class="exhibition-features_heading">
+                        <h3>What Makes This Exhibition a Must-Visit</h3>
+                    </div>
+                    <div class="slider-container">
+                        <div class="exhibition-slider">
+                            <div class="exhibition_card">
+                                <div class="exhibition_card__icon-wrapper">
+                                    <img class="exhibition_card__icon" src="./assets/icons/exhibition_icon_01.svg"
+                                        alt="">
+                                </div>
+                                <h2 class="exhibition_card__title">Interact Directly with School Heads </h2>
+                                <p class="exhibition_card__description">Get answers straight from the experts</p>
+                            </div>
+                            <div class="exhibition_card">
+                                <div class="exhibition_card__icon-wrapper">
+                                    <img class="exhibition_card__icon" src="./assets/icons/exhibition_icon_02.svg"
+                                        alt="">
+                                </div>
+                                <h2 class="exhibition_card__title">Compare Curriculum &<br> Pedagogy</h2>
+                                <p class="exhibition_card__description">Understand the differences between <br>CBSE,
+                                    ICSE,
+                                    IB, Cambridge, Finnish &<br> more</p>
+                            </div>
+                            <div class="exhibition_card">
+                                <div class="exhibition_card__icon-wrapper">
+                                    <img class="exhibition_card__icon" src="./assets/icons/exhibition_icon_03.svg"
+                                        alt="">
+                                </div>
+                                <h2 class="exhibition_card__title">Get Exclusive Fee Structures & Offers</h2>
+                                <p class="exhibition_card__description">Access transparent information<br> and avail
+                                    offers
+                                </p>
+                            </div>
+                            <div class="exhibition_card">
+                                <div class="exhibition_card__icon-wrapper">
+                                    <img class="exhibition_card__icon" src="./assets/icons/exhibition_icon_05.svg"
+                                        alt="">
+                                </div>
+                                <h2 class="exhibition_card__title">Explore Schools Offerings</h2>
+                                <p class="exhibition_card__description">Preview infrastructure, co-<br>curricular,
+                                    teaching
+                                    <br>methodology and culture
+                                </p>
+                            </div>
+                            <div class="exhibition_card">
+                                <div class="exhibition_card__icon-wrapper">
+                                    <img class="exhibition_card__icon" src="./assets/icons/exhibition_icon_05.svg"
+                                        alt="">
+                                </div>
+                                <h2 class="exhibition_card__title">On-the-Spot Admissions & Counselling</h2>
+                                <p class="exhibition_card__description">Save time with instant<br> applications and
+                                    expert<br>
+                                    guidance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="curved-banner">
+                    <div class="slider-controls">
+                        <button class="exhibition-features__prev-btn btn-outline" aria-label="Previous slide">
+                            <svg class="prev-btn__icon" viewBox="0 0 24 24">
+                                <line x1="19" y1="12" x2="5" y2="12"></line>
+                                <polyline points="12 19 5 12 12 5"></polyline>
+                            </svg>
+                        </button>
+                        <button class="exhibition-features__next-btn btn-filled" aria-label="Next slide">
+                            <svg class="next-btn__icon" viewBox="0 0 24 24">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <svg width="0" height="0" style="position: absolute;">
+                    <defs>
+                        <clipPath id="curve-clip" clipPathUnits="objectBoundingBox">
+                            <path d="M 0,0 L 1,0 Q 0.5,1.5 0,0 Z" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </section>
+
+            <!-- contact info section -->
+            <section class="contact-info contact-info-bg">
+                <div class="contact-info__container">
+                    <div class="contact-info__brand">
+                        <img src="./assets/logos/premier_school_logo.svg" alt="Company Logo" width="94" height="83"
+                            class="contact-info__logo">
+                    </div>
+                    <div class="contact-info__details">
+                        <article class="contact-item">
+                            <div class="contact-item__iconbox">
+                                <img src="./assets/icons/location-icon.svg" alt="" width="35" height="35"
+                                    class="contact-item__icon">
+                            </div>
+                            <div class="contact-item-textbox">
+                                <h3 class="contact-item__title">Corporate Office</h3>
+                                <p class="contact-item__text">
+                                    Suite B-5, Ballygunge Park Tower,<br>
+                                    67B Ballygunge Circular Road,<br> Kolkata - 700019
+                                </p>
+                            </div>
+                        </article>
+                        <article class="contact-item">
+                            <div class="contact-item__iconbox">
+                                <img src="./assets/icons/location-icon.svg" alt="" width="35" height="35"
+                                    class="contact-item__icon">
+                            </div>
+                            <div class="contact-item-textbox">
+                                <h3 class="contact-item__title">Ahmedabad Office</h3>
+                                <p class="contact-item__text">
+                                    12/AA, Swastik Chambers, Near CU <br>Shah College, Ashram Road,<br> Ahmedabad -
+                                    380009
+                                </p>
+                            </div>
+                        </article>
+                        <article class="contact-item">
+                            <div class="contact-item__iconbox">
+                                <img src="./assets/icons/call_icon.svg" width="35" height="35" alt=""
+                                    class="contact-item__icon">
+                            </div>
+                            <div class="contact-item-textbox">
+                                <h3 class="contact-item__title">Call us on</h3>
+                                <p class="contact-item__text">
+                                    9674805912<br>
+                                    9674585012
+                                </p>
+                            </div>
+                        </article>
+                        <div class="contact-info__social">
+                            <h3 class="contact-info__social-title">
+                                Follow us on
+                            </h3>
+                            <div class="contact-info__social-links">
+                                <a href="#" class="contact-info__social-link">
+                                    <img src="./assets/icons/insta_icon.svg" width="35" height="35"
+                                        alt="Instagram Icon">
+                                </a>
+                                <a href="#" class="contact-info__social-link">
+                                    <img src="./assets/icons/facebook_icon.svg" width="35" height="35"
+                                        alt="Facebook Icon">
+                                </a>
+                                <a href="#" class="contact-info__social-link">
+                                    <img src="./assets/icons/youtube_icon.svg" width="35" height="35"
+                                        alt="Youtube Icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- site global footer -->
+        <footer class="footer">
+            <div class="centered-footer">
+                Copyright © 2025 | All rights reserved. Premier Schools Exhibition
+            </div>
+        </footer>
+    </h1>
+    <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>
