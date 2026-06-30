@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Museo Sans Demo';
-    src: url('/fonts/fonnts.com-Museo_Sans_300.otf') format('otf');
+    src: url('/fonts/Fontspring-DEMO-MuseoSans_700-iF6639e03b08577.otf') format('otf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    font-family: 'Museo Sans Demo', sans-serif;
+    font-family: 'Fontspring Demo Museo Sans', sans-serif;
     line-height: 1.5;
 }
 
